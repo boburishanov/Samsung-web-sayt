@@ -1,0 +1,693 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SamsungSharpSans'
+}
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+header{
+    width: 100%;
+    background-color: #202425;
+}
+header #cont nav .container-fluid{
+    background-color: #202425;
+    color: #fff;
+}
+header .container{
+    background-color: #202425;
+}
+header #cont nav .container-fluid button{
+    border: 1px solid #fff;
+}
+header #cont nav .container-fluid button span {
+    background-color: #fff;
+    border-radius: 5px;
+}
+header #cont nav .container-fluid button span .navbar-toggler-icon{
+    color: #fff;
+    background-color: #fff;
+}
+header #cont nav .container-fluid #navbarSupportedContent nav form button{
+    color: #fff;
+}
+header #cont nav .container-fluid #navbarSupportedContent nav form button:nth-child(1){
+    border: none;
+}
+header #cont nav .container-fluid #navbarSupportedContent nav form button:nth-child(2){
+    background: blue;
+    border: none;
+    border-radius: none;
+}
+header #cont .stiv{
+    width: 100%;
+    border: 1px solid black;
+}
+header #cont nav .container-fluid #navbarSupportedContent ul .dropdown-menu li a{
+    color: black;
+}
+header #cont nav .container-fluid #navbarSupportedContent ul li a{
+    color: #fff;
+}
+header #cont #nav_two .container-fluid #navbarNav ul li a{
+    color: #fff;
+}
+header #cont #nav_two .container-fluid #navbarNav ul li a:hover{
+    color: blue;
+}
+
+/* ikkinchi qator boshlanishi */
+
+.contrainer-flud .si{
+    width: 100%;
+}
+.contrainer-flud .text h3{
+    width: 100%;
+    color: grey;
+    font-size: 30px;
+    margin-top: 100px;
+    text-align: center;
+}
+.contrainer-flud .text h1{
+    margin: 40px auto;
+    width: 900px;
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    font-size: 70px;
+}
+
+/* ikkinchi qator tugashi */
+
+.contrainer-flud .container .img {
+    display: flex;
+}
+.contrainer-flud .container .img {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.contrainer-flud .container .img ul .al{
+    width: 250px;
+    font-size: 25px;
+    color: #fff;
+}
+.contrainer-flud .container .chiziq{
+    width: 250px;
+    font-size: 25px;
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+.contrainer-flud .container .img ul .rang{
+    width: 250px;
+    height: 60px;
+    box-shadow: inset 0 0 0 0 #fff;
+    outline: none;
+    border-radius: 15px;
+    margin-top: 15px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.contrainer-flud .container .img ul .rang{
+    border: 1px solid #fff;
+}
+.contrainer-flud .container .img ul .rang p{
+    width: 100px;
+    font-size: 12px;
+    margin-left: 20%;
+    height: 100%;
+    color: #ccc;
+    transition: all .3s ease-in-out;
+    font-weight: 600;
+    padding: auto;
+}
+.contrainer-flud .container .img ul  img{
+    width: 100%;
+    height: 300px;
+}
+
+.contrainer-flud .activ{
+    display: none;
+}
+.contrainer-flud .container .img ul .rang:hover{
+    box-shadow: inset 300px 0 0 0 #fff;
+    color: #202425;
+}
+.contrainer-flud .container .img ul .rang p:hover{
+    color: #202425;
+}
+.contrainer-flud .container .img ul .all{
+    width: 250px;
+    background-color: black;
+    color: #fff;
+}
+.contrainer-flud .container .img ul .all li{
+    border: 1px dashed #fff;
+    font-size: 25px;
+}
+.contrainer-flud .container .img ul .all li a{
+    color: #fff;
+}
+.contrainer-flud .container .img ul .all li a:hover{
+    color: black;
+    background-color: #fff;
+}
+.contrainer-flud .container .asosiy{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.contrainer-flud .container .img ul li .block{
+    display: none;
+}
+.contrainer-flud .container .img ul li .activ{
+    display: block;
+}
+.contrainer-flud .container .photo h6{
+    font-size: 18px;
+    font-weight: 800;
+}
+.contrainer-flud .container .photo .radus{
+    display: flex;
+    gap: 20px;
+}
+.contrainer-flud .container .photo .radius_one{
+    border: 5px solid #fff;
+    width: 35px;
+    height: 35px;
+    border-color: 5px #fff;
+    border-radius: 50%;
+    background: rgb(28, 27, 27);
+    cursor: pointer;
+}
+.contrainer-flud .container .photo .radius_two{
+    border: 5px solid #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border-color: 5px #fff;
+    cursor: pointer;
+    background: rgb(155, 157, 213);
+}
+.contrainer-flud .container .photo .radus .radius_tree{
+    border: 5px solid #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: rgb(223, 102, 211);
+}
+.contrainer-flud .container .photo .radus .radius_four{
+    border: 5px solid #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border-color: 5px #fff;
+    cursor: pointer;
+    background: rgb(201, 162, 106);
+}
+.contrainer-flud .container .photo .radus .activ_btn{
+    border: 1px double gray;
+}
+.contrainer-flud .container .btnse{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0 0 #fff;
+    outline: none;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.contrainer-flud .container .btnse p{
+    padding: auto;
+}
+.contrainer-flud .container .btnse:hover{
+    box-shadow: inset 400px 000 #fff;
+    color: #202425;
+}
+
+/* ikkinchi qator tugashi */
+
+/* ---------------------------------------------------------------------------------------- */
+
+/*  Uchinchi qator boshlanishi */
+
+.contrainer-flud .section{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.contrainer-flud .section .texts{
+    /* border: 1px solid #fff; */
+    background-color: black;
+    padding-top: 100px;
+}
+.contrainer-flud .section .texts h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+}
+.contrainer-flud .section .texts p{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+}
+.contrainer-flud .section .chiziq_2{
+    border: 1px solid gray;
+    width: 100%;
+    background-color: gray;
+}
+.contrainer-flud .section .box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.contrainer-flud .section .box_one{
+    margin: 20px 0px;
+}
+.contrainer-flud .section .box_one h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+}
+.contrainer-flud .section .box_one h5{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+.contrainer-flud .section .box_one p{
+    color: gray;
+    font-size: 25px;
+    font-weight: 500;
+}
+.contrainer-flud .section .box_one h6{
+    width: 200px;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin: 0px auto;
+}
+.contrainer-flud .section .container .boxsis{
+    margin: 100px 0px;
+}
+.contrainer-flud .section .container .boxsis .bobxsis_child{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+.contrainer-flud .section .container .boxsis .bobxsis_child h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+.contrainer-flud .section .container .boxsis .bobxsis_child_1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: gray;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 0px 0px 200px 0px;
+}
+.contrainer-flud .section .container .box_two{
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contrainer-flud .section .container .box_two .box_three h4{
+    color: #fff;
+    width: 300px;
+}
+.contrainer-flud .section .container .box_two .box_three h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+    padding: 0px 0px 200px 0px;
+}
+.contrainer-flud .section .container .box_two .box_three h2{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+}
+.contrainer-flud .section .container .box_two .box_three p{
+    color: gray;
+    font-size: 25px;
+    font-weight: 500;
+}
+.contrainer-flud .section .container .box_two .box_three h6{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+.contrainer-flud .section .container .yozuv{
+    display: flex;
+}
+.contrainer-flud .section .container .yozuv  img{
+    margin: 100px 10px 100px 12%;
+}
+.contrainer-flud .section .container .yozuv  p{
+    width: 700px;
+    margin: 100px 0px 100px 100px;
+    color: #fff;
+}
+
+/*  Uchinchi qator tugashi */
+/* ------------------------------------------------------------------------------------------------ */
+
+.contrainer-flud .cont{
+    width: 100%;
+    height: 100%;
+    background-color: #202425;
+}
+.contrainer-flud .cont .container{
+    margin: 0px auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.contrainer-flud .cont .container .images {
+    width: 300px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 100px 0;
+}
+.contrainer-flud .cont .container .images .img{
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+    position: relative;
+}
+.contrainer-flud .cont .container .images .img img{
+    transition: transform .9s;
+    transform: screen(1.1);
+    position: relative;
+    cursor: pointer;
+}
+.contrainer-flud .cont .container .images .img p{
+    position: absolute;
+    top: 0;
+    color: #fff;
+    cursor: pointer;
+}
+.contrainer-flud .cont .container .images:hover img{
+    transform: scale(1.1);
+    color: #fff;
+}
+.contrainer-flud .cont .robot{
+    width: 1350px;
+    height: 500px;
+    margin: 20px auto;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    background-image: url(../img/fon.webp);
+}
+.contrainer-flud .cont .robot h1{
+    font-weight: 800;
+    width: 400px;
+    margin: 70px 0px 30px 50px;
+}
+.contrainer-flud .cont .robot .btns{
+    width: 300px;
+    height: 40px;
+    padding-top: 10px;
+    margin-left: 30px;
+    text-align: center;
+    box-shadow: inset 0 0 0 0 #fff;
+    transition: ease-out 0.3s;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+.contrainer-flud .cont .robot .btns p:hover{
+    color: #fff;
+}
+.contrainer-flud .cont .robot .btns:hover{
+    box-shadow: inset 300px 0 0 0 black;
+    color: #fff;
+    border-color: #fff;
+}
+
+/* turtinchi qator boshanishi */
+/* ----------------------------------------------------------------------------------------- */
+
+.contrainer-flud .contrainer_flud{
+    background: #F7F7F7;
+    width: 100%;height: 100%;
+}
+.contrainer-flud .contrainer_flud .container{
+    width: 100%;
+}   
+.contrainer-flud .contrainer_flud .container .inputs .box{
+    padding-top: 30px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+.contrainer-flud .contrainer_flud .container .inputs .box .all .input-group {
+    padding-top: 30px;
+    width: 250px;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+.contrainer-flud .contrainer_flud .container .inputs .box p{
+    width: 80%;
+    display: block;
+    flex-wrap: wrap;
+}
+
+.contrainer-flud .link .container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contrainer-flud .link .container span{
+    border: 1px solid gray;
+    width: 1px;
+    height: 350px;
+    margin: 10px;
+}
+.contrainer-flud .link .container .box{
+    width: 300px;
+}
+.contrainer-flud .link .container .box ul li{
+    list-style: none;
+    cursor: pointer;
+}
+.contrainer-flud .link .container .box ul li a{
+    position: relative;
+    text-decoration: none;
+    color: #202425;
+    letter-spacing: 0.5px;
+}
+.contrainer-flud .link .container .box ul li a::after{
+    content: "";
+    position: absolute;
+    background-color: #202425;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -4px;
+    transition: .3s;
+}
+.contrainer-flud .link .container .box ul li a:hover:after{
+    width: 100%;
+}
+.contrainer-flud .foater_2 .container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contrainer-flud .foater_2 .container .box{
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+.contrainer-flud .foater_2 .container .box2{
+    display: flex;
+    display: flex;
+    cursor: pointer;
+    gap: 5px;
+    font-size: 20px;
+}
+.contrainer-flud .foater_2 .container .box2 p{
+    padding-right: 20px;
+    font-size: 16px;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+/* turtinchi qator tigashi */
+
+@media only screen and (max-width: 764px){
+    header #cont{
+        color: #fff;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header #cont .stiv{
+        color: #fff;
+        display: none;
+    }
+    .contrainer-flud .text h3{
+        color: grey;
+        padding:  0px;
+        margin: 30px 0px;
+        text-align: center;
+    }
+    .contrainer-flud .text h1{
+        color: #fff;
+        text-align: center;
+        width: 90%;
+        font-size: 50px;
+        margin: 50px 0px;
+        padding: 0px;
+    }
+    .contrainer-flud .container .img {
+        width: 50%;
+        margin: 10px auto;
+        display: block;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .contrainer-flud .section .box{
+        width: 100%;
+        display: block;
+        gap: 100px;
+        margin: 10px auto;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        margin: 30px 0px;
+    }
+    .contrainer-flud .section .container .boxsis .bobxsis_child{
+        width: 100%;
+        display: block;
+        gap: 100px;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        margin: 30px 0px;
+    }
+    .contrainer-flud .section .container .boxsis .bobxsis_child h1{
+        padding: 50px 0px;
+    }
+    .contrainer-flud .section .container .boxsis .bobxsis_child_1 p{
+        display: none;
+    }
+    .contrainer-flud .section .container .box_two{
+        display: block;
+        gap: 100px;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        margin: 30px 0px;
+    }
+    .contrainer-flud .section .container .box_two .box_three{
+    margin: 50px auto;
+    }
+    .contrainer-flud .section .container .box_two .box_three h4{
+        color: #fff;
+        margin: 5px auto;
+        text-align: center;
+    }
+    .contrainer-flud .section .container .yozuv  img{
+        width: 90px;
+        height: 60px;
+    }
+    .contrainer-flud .cont .rasm .images .img{
+        width: 100%;
+        margin: 0px auto;
+
+    }
+    .contrainer-flud .cont .rasm .images .img img{
+        width: 300px;
+    }
+    .contrainer-flud .cont .rasm .images .img p{
+        font-size: 30px;
+    }
+    .contrainer-flud .cont .robot{
+        background-position: center;
+        width: 100%;
+    }
+    .contrainer-flud .cont .robot h1{
+        text-align: center;
+        font-weight: 800;
+        padding: 0;
+        margin: 10px auto;
+    }
+    .contrainer-flud .contrainer_flud .container .inputs .box{
+        display: block;
+        gap: 30px;
+        padding: 20px auto;
+        position: relative;
+    }
+    .contrainer-flud .contrainer_flud .container .inputs .box p{
+        padding-top: 80px;
+    }
+    .contrainer-flud .contrainer_flud .container .inputs .box .all .input-group{
+        width: 100%;
+    }
+    .contrainer-flud .link .container{
+        width: 100%;
+        display: block;
+        gap: 100px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 30px auto;
+    }
+    .contrainer-flud .link .container .box{
+        margin: 0 auto;
+    }
+    .contrainer-flud .cont .container .images{
+        width: 100%;
+        height: 350px;
+        padding: 0;
+        margin: 0;
+    }
+    .contrainer-flud .cont .container .images img{
+        width: 100%;
+        height: 100%;
+    }
+    .contrainer-flud .cont .robot{
+        width: 100%;
+        background-size: cover;
+    }
+    .contrainer-flud .link .container span{
+        display: none;
+    }
+    .contrainer-flud .link .container .box{
+        margin: 30px auto;
+    }
+}
